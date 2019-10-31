@@ -1,0 +1,16 @@
+name: 'JFrog CLI for Artifactory'
+author: 'Kat Cosgrove'
+branding:
+  icon: 'codepen'
+  color: 'green'
+description: 'Runs a JFrog CLI for Artifactory command.'
+image: 'Dockerfile'
+inputs:
+  cmd:
+    description: 'The command you want to run, without `jfrog rt`'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.cmd }}
