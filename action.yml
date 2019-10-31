@@ -1,7 +1,7 @@
-name: 'JFrog CLI for Artifactory'
+name: 'JFrog CLI for GitHub Actions'
 author: 'Kat Cosgrove'
 branding:
-  icon: 'codepen'
+  icon: 'aperture'
   color: 'green'
 description: 'Runs a JFrog CLI for Artifactory command.'
 image: 'Dockerfile'

@@ -23,7 +23,7 @@ This action requires several environment variables to operate: the URL for your 
 | Access Token  | TOKEN         |
 | Login Credentials | USER and PASS |
 
-**All environment variables other than AUTH should be set as secrets.**
+**All environment variables other than AUTH must be set as secrets.**
 
 ## Example Workflow
 
